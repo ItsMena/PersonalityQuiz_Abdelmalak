@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		B877BB8428E742F400D56550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877BB8328E742F400D56550 /* AppDelegate.swift */; };
 		B877BB8628E742F400D56550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877BB8528E742F400D56550 /* SceneDelegate.swift */; };
-		B877BB8828E742F400D56550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877BB8728E742F400D56550 /* ViewController.swift */; };
+		B877BB8828E742F400D56550 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877BB8728E742F400D56550 /* IntroductionViewController.swift */; };
 		B877BB8B28E742F400D56550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B877BB8928E742F400D56550 /* Main.storyboard */; };
 		B877BB8D28E742FA00D56550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B877BB8C28E742FA00D56550 /* Assets.xcassets */; };
 		B877BB9028E742FA00D56550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B877BB8E28E742FA00D56550 /* LaunchScreen.storyboard */; };
+		B88D184728EB654900BEEFEE /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D184628EB654900BEEFEE /* QuestionViewController.swift */; };
+		B88D184928EB657000BEEFEE /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D184828EB657000BEEFEE /* ResultsViewController.swift */; };
+		B8F0658328F49581004253F8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F0658228F49581004253F8 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B877BB8028E742F400D56550 /* PersonalityQuiz_Abdelmalak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalityQuiz_Abdelmalak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B877BB8328E742F400D56550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B877BB8528E742F400D56550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B877BB8728E742F400D56550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B877BB8728E742F400D56550 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		B877BB8A28E742F400D56550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B877BB8C28E742FA00D56550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B877BB8F28E742FA00D56550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B877BB9128E742FA00D56550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88D184628EB654900BEEFEE /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		B88D184828EB657000BEEFEE /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		B8F0658228F49581004253F8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				B877BB8328E742F400D56550 /* AppDelegate.swift */,
 				B877BB8528E742F400D56550 /* SceneDelegate.swift */,
-				B877BB8728E742F400D56550 /* ViewController.swift */,
+				B8F0658228F49581004253F8 /* Question.swift */,
 				B877BB8928E742F400D56550 /* Main.storyboard */,
+				B877BB8728E742F400D56550 /* IntroductionViewController.swift */,
+				B88D184628EB654900BEEFEE /* QuestionViewController.swift */,
+				B88D184828EB657000BEEFEE /* ResultsViewController.swift */,
 				B877BB8C28E742FA00D56550 /* Assets.xcassets */,
 				B877BB8E28E742FA00D56550 /* LaunchScreen.storyboard */,
 				B877BB9128E742FA00D56550 /* Info.plist */,
@@ -96,6 +105,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
+				ORGANIZATIONNAME = "Mena Abdelmalak";
 				TargetAttributes = {
 					B877BB7F28E742F400D56550 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -138,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B877BB8828E742F400D56550 /* ViewController.swift in Sources */,
+				B877BB8828E742F400D56550 /* IntroductionViewController.swift in Sources */,
 				B877BB8428E742F400D56550 /* AppDelegate.swift in Sources */,
+				B88D184728EB654900BEEFEE /* QuestionViewController.swift in Sources */,
+				B8F0658328F49581004253F8 /* Question.swift in Sources */,
+				B88D184928EB657000BEEFEE /* ResultsViewController.swift in Sources */,
 				B877BB8628E742F400D56550 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +298,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6PV777ZQR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonalityQuiz_Abdelmalak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -301,6 +316,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Mena-Abdelmalak.PersonalityQuiz-Abdelmalak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,8 +328,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G6PV777ZQR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PersonalityQuiz_Abdelmalak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +346,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Mena-Abdelmalak.PersonalityQuiz-Abdelmalak";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
